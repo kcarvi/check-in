@@ -1,0 +1,49 @@
+.container {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+fieldset {
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px dashed #EEE;
+    border-radius: 4px;
+    background: #f7f7f7;
+}
+legend {
+	color: #555;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+input {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #65c178;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+input[type="submit"]:hover {
+    background-color: #59a969;
+}
+.output {
+	text-align: left;
+	width: 100%;
+}
+.output tr th {
+	padding: 8px;
+}
+.output tr td {
+	padding: 8px;
+    border: 1px solid #EEE;
+}
+.output tr:hover td {
+	background-color: #EEE;
+}
